@@ -8,7 +8,7 @@ var states = Object.freeze({
 
 var currentstate;
 
-var gravity = 0.25;
+var gravity = 0.15;
 var velocity = 0;
 var position = 180;
 var rotation = 0;
@@ -25,7 +25,7 @@ var pipes = new Array();
 var replayclickable = false;
 
 //sounds
-var volume = 30;
+var volume = 10;
 var soundJump = new buzz.sound("assets/sounds/sfx_wing.ogg");
 var soundScore = new buzz.sound("assets/sounds/sfx_point.ogg");
 var soundHit = new buzz.sound("assets/sounds/sfx_hit.ogg");
